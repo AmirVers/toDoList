@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <div class="app">
+
+        <div class="img-container">
+            <img src="mahiru.png" alt="mahiru" class="img">
+        </div>
+
+        <div class="greeting">
+            <h2 class="title">
+                Добрый день, <input type="text" placeholder="Ваше Имя" id="name">
+            </h2>
+        </div>
+
+        <div class="todo-create">
+            
+            <form id="new-todo-form">
+                <h3>Что ты хочешь сделать?</h3>
+                
+                <input type="text" placeholder="Заварить чай" id="content" name="content" class="content">
+
+                <input type="submit" value="Add Todo" class="add-todo">
+            </form>
+            
+        </div>
+
+        <div class="task-list">
+            <h2>Список задач</h2>
+            <div class="tasks">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
